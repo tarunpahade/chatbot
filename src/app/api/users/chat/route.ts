@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
 
   const { PROMPT,previous_messages,a,u } = data;
 
-  const chat = new ChatOpenAI({ temperature: 0 });
+  const chat = new ChatOpenAI({ temperature: 0,openAIApiKey:'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' });
 
   const chatPrompt = ChatPromptTemplate.fromPromptMessages([
     SystemMessagePromptTemplate.fromTemplate(

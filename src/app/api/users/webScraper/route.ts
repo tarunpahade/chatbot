@@ -50,7 +50,7 @@ console.log(data);
 console.log(vectorStore,'this is vector store');
 const defaultPrompt =
   "You are a customer support AI assistant that provides information about the products available in your business. Ask me anything related to our products!";
-  const model = new OpenAI({ temperature: 0, openAIApiKey: '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' });
+  const model = new OpenAI({ temperature: 0, openAIApiKey: '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' });
 
     
 const chain = new RetrievalQAChain({

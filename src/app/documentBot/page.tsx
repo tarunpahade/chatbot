@@ -22,13 +22,13 @@ const ChatPage: React.FC = () => {
             console.log(messages);
 
             try {
-                const response = await fetch("/api/users/textloader", {
+                const response = await fetch("/api/users/chat", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
-                        key: "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",
+                        key: "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",
                         question: inputText,
                     }),
                 });

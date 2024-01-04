@@ -26,7 +26,7 @@ console.log('Vector datas');
 
 // Search for the most similar document
 
-const model = new OpenAI({ temperature: 0,openAIApiKey:'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' });
+const model = new OpenAI({ temperature: 0,openAIApiKey:'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' });
 const chain = new RetrievalQAChain({
     combineDocumentsChain: loadQAStuffChain(model),
     retriever: vectorStore.asRetriever(),

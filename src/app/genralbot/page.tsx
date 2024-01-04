@@ -26,7 +26,7 @@ const ChatPage: React.FC = () => {
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
-                        key: "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",
+                        key: "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",
                         chatModel: "gpt-3.5-turbo",
                         PROMPT: inputText,
                         a: JSON.stringify(messages.filter((message) => message.author === "AI")),
